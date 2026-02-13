@@ -1,3 +1,6 @@
+# 용도
+Anastomosis Automation 에서 puncture labeling에 사용
+
 # 설치법
 폴더 내에서 터미널 열고 uv sync 입력하면 venv 생성됨
 
