@@ -2,7 +2,7 @@
 Anastomosis Automation 에서 puncture labeling에 사용
 
 # 설치법
-폴더 내에서 터미널 열고 uv sync 입력하면 venv 생성됨
+폴더 생성 후 코드 너호 폴더 내에서 터미널 열고 uv sync 입력하면 venv 생성됨
 
 # 사전 준비
 - **check_rgb.py** : 바늘의 배경부분의 rgb 값 확인용(마우스 클릭시 print됨)
