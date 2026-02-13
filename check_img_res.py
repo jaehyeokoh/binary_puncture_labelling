@@ -1,7 +1,13 @@
+"""
+이미지 해상도 및 채널 수 확인 스크립트
+폴더 내의 이미지 파일을 불러와 해상도와 채널 수 출력
+"""
+
+
 import cv2
 import os
 
-base_dir = "data share"
+base_dir = "data share" # 저장된 이미지 & 로봇 pose가 담긴 폴더
 traj_folder = "traj_050" # 확인하고 싶은 폴더
 img_dir = os.path.join(base_dir, traj_folder, "images")
 

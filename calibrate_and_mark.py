@@ -5,11 +5,11 @@ import os
 import json
 
 # --- [설정 및 파라미터] ---
-BASE_DIR = "data share"  # 사용자 폴더명 유지
+BASE_DIR = "data share"  # 저장된 이미지 & 로봇 pose가 담긴 폴더
 CALIB_DATA_FILE = "global_collected_points.json"  # 수집 데이터 저장용
 FINAL_CALIB_FILE = "camera_extrinsic_global.json" # 최종 결과 저장용
 
-# 초기 내부 파라미터 (1280x720)
+# 초기 카메라(realsense) 내부 파라미터 (1280x720 화질 기준)
 INTRINSIC_K = np.array([[645.0, 0, 640.0], [0, 645.0, 360.0], [0, 0, 1]], dtype=np.float32)
 DIST_COEFFS = np.zeros(5, dtype=np.float32) # 왜곡 계수 초기값
 

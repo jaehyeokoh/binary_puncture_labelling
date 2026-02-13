@@ -1,3 +1,7 @@
+"""
+로봇의 데이터를 받아와 FK 풀어서 바늘 offset 적용해 바늘 끝단 좌표 csv 생성하는 코드
+"""
+
 import os
 import pandas as pd
 import numpy as np
@@ -25,7 +29,7 @@ def calculate_needle_pose(joint_angles):
     return T_needle
 
 def main():
-    base_path = "data share"
+    base_path = "data share" # 저장된 이미지 & 로봇 pose가 담긴 폴더
     # traj_001부터 traj_050까지 폴더 순회
     for i in range(1, 51):
         folder_name = f"traj_{i:03d}"

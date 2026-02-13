@@ -1,9 +1,16 @@
+"""
+클릭한 부분의 rgb값 확인용 코드
+이 픽셀값을 기준으로 실리콘과 배경 구분에 사용
+"""
+
+
+
 import cv2
 import os
 import numpy as np
 
 # --- [설정] ---
-BASE_DIR = "data share"
+BASE_DIR = "data share" # 저장된 이미지 & 로봇 pose가 담긴 폴더
 TRAJ_IDX = 1 # 확인하고 싶은 트래젝토리 번호
 
 def mouse_callback(event, x, y, flags, param):

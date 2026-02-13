@@ -5,7 +5,7 @@ import os
 import json
 
 # --- [1. 설정 및 파라미터] ---
-BASE_DIR = "data share"
+BASE_DIR = "data share" # 저장된 이미지 & 로봇 pose가 담긴 폴더
 # 전역 최적화 결과 파일 (T_base_cam, K, dist 포함)
 GLOBAL_CALIB_FILE = "camera_extrinsic_global.json"
 
